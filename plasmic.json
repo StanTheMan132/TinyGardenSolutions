@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -266,6 +266,324 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "button"
+        },
+        {
+          "id": "qm-EzOzJON",
+          "name": "ModelFrontPage",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicModelFrontPage.jsx",
+          "importSpec": {
+            "modulePath": "ModelFrontPage.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicModelFrontPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "jKKz051o73",
+          "name": "SurveyStoner",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSurveyStoner.jsx",
+          "importSpec": {
+            "modulePath": "SurveyStoner.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSurveyStoner.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "klxX5nKFAD",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicNavbar.jsx",
+          "importSpec": {
+            "modulePath": "Navbar.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "owGtneM1utE",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "sRwVN1JpEF",
+          "name": "BlogOverview",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogOverview.jsx",
+          "importSpec": {
+            "modulePath": "BlogOverview.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogOverview.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "xsieR2sgf2",
+          "name": "ContactSaas",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicContactSaas.jsx",
+          "importSpec": {
+            "modulePath": "ContactSaas.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicContactSaas.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Ric4jps1ZGe",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect.jsx",
+          "importSpec": {
+            "modulePath": "Select.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "6R7wK_O9k4U",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect__Option.jsx",
+          "importSpec": {
+            "modulePath": "Select__Option.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "sOvqC3Coibm",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect__OptionGroup.jsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "gAsGPeXmSnS",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect__Overlay.jsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "QPLNTBR3_IIG",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "eWFN0R42ty",
+          "name": "PrivacyPolicySaas",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicPrivacyPolicySaas.jsx",
+          "importSpec": {
+            "modulePath": "PrivacyPolicySaas.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicPrivacyPolicySaas.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Yaa7Qx0AtX",
+          "name": "PricingSaas",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicPricingSaas.jsx",
+          "importSpec": {
+            "modulePath": "PricingSaas.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicPricingSaas.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "cdtIcE32qk",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "E8EB-KHnAO",
+          "name": "Product",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicProduct.jsx",
+          "importSpec": {
+            "modulePath": "Product.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicProduct.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8QY6yVqFD3",
+          "name": "BlogPagina",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogPagina.jsx",
+          "importSpec": {
+            "modulePath": "BlogPagina.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogPagina.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "tRM_AWcKkm",
+          "name": "BlogPage",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogPage.jsx",
+          "importSpec": {
+            "modulePath": "BlogPage.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4PqtYFOawF",
+          "name": "PageBanner2",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicPageBanner2.jsx",
+          "importSpec": {
+            "modulePath": "PageBanner2.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicPageBanner2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5irGb5N5YY",
+          "name": "BlogText",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogText.jsx",
+          "importSpec": {
+            "modulePath": "BlogText.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicBlogText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tawyW2Li6P",
+          "name": "GetalVraag",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicGetalVraag.jsx",
+          "importSpec": {
+            "modulePath": "GetalVraag.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicGetalVraag.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pcjCVOj-il",
+          "name": "MultipleChoiceVraag",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicMultipleChoiceVraag.jsx",
+          "importSpec": {
+            "modulePath": "MultipleChoiceVraag.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicMultipleChoiceVraag.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "yqmiKgneAs",
+          "name": "SurveyHomepage",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSurveyHomepage.jsx",
+          "importSpec": {
+            "modulePath": "SurveyHomepage.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSurveyHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "R7A-FIEs08",
+          "name": "SurveyProduct",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicSurveyProduct.jsx",
+          "importSpec": {
+            "modulePath": "SurveyProduct.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicSurveyProduct.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "sdFwgj_RBK",
+          "name": "UnderConstruction",
+          "type": "managed",
+          "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+          "renderModuleFilePath": "plasmic/tiny_garden_solutions/PlasmicUnderConstruction.jsx",
+          "importSpec": {
+            "modulePath": "UnderConstruction.jsx"
+          },
+          "cssFilePath": "plasmic/tiny_garden_solutions/PlasmicUnderConstruction.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -298,6 +616,56 @@
           "id": "sKGZxHnC-",
           "name": "_002InstagramsvgIcon",
           "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon___002Instagramsvg.jsx"
+        },
+        {
+          "id": "ZEZum5JdJYg",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "CQ2DYR63g8S",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "hJVqRoo8T1m",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__Icon5.jsx"
+        },
+        {
+          "id": "6jcESFctCjp",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__Icon6.jsx"
+        },
+        {
+          "id": "hPWiErNdFWp",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__ChevronDownsvg.jsx"
+        },
+        {
+          "id": "AGPM0L-f5nJ",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__ChevronUpsvg.jsx"
+        },
+        {
+          "id": "-AuXPEj7VY9E",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__Squaresvg.jsx"
+        },
+        {
+          "id": "8pMYKM2dxC9b",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__SquareCheckFilledsvg.jsx"
+        },
+        {
+          "id": "X3QaoT9tL8Vs",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__SquareMinussvg.jsx"
+        },
+        {
+          "id": "6UpumiS197R",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/tiny_garden_solutions/icons/PlasmicIcon__Icon7.jsx"
         }
       ],
       "images": [
@@ -330,6 +698,106 @@
           "id": "-_iyN5uLt",
           "name": "Logo2TGG.png",
           "filePath": "plasmic/tiny_garden_solutions/images/logo2TgGpng.png"
+        },
+        {
+          "id": "ad-wssQICi6",
+          "name": "image 3",
+          "filePath": "plasmic/tiny_garden_solutions/images/image3.svg"
+        },
+        {
+          "id": "jw4E1mXT4Lz",
+          "name": "image 4",
+          "filePath": "plasmic/tiny_garden_solutions/images/image4.jpg"
+        },
+        {
+          "id": "E7-xhvYb7hk",
+          "name": "image 5",
+          "filePath": "plasmic/tiny_garden_solutions/images/image5.jpg"
+        },
+        {
+          "id": "TzBx7AQxlaK",
+          "name": "image 6",
+          "filePath": "plasmic/tiny_garden_solutions/images/image6.jpg"
+        },
+        {
+          "id": "yoXd0xTy_bq",
+          "name": "image 7",
+          "filePath": "plasmic/tiny_garden_solutions/images/image7.jpg"
+        },
+        {
+          "id": "HHpIPwiDRAe",
+          "name": "image 8",
+          "filePath": "plasmic/tiny_garden_solutions/images/image8.jpg"
+        },
+        {
+          "id": "eiY5-D9fRe5",
+          "name": "image 9",
+          "filePath": "plasmic/tiny_garden_solutions/images/image9.jpg"
+        },
+        {
+          "id": "hOvMEtfWrmh",
+          "name": "image 10",
+          "filePath": "plasmic/tiny_garden_solutions/images/image10.jpg"
+        },
+        {
+          "id": "fCbt8Jwzttd",
+          "name": "image 11",
+          "filePath": "plasmic/tiny_garden_solutions/images/image11.jpg"
+        },
+        {
+          "id": "bOU6hVJejY0",
+          "name": "image 12",
+          "filePath": "plasmic/tiny_garden_solutions/images/image12.jpg"
+        },
+        {
+          "id": "1ozKV2wggqS",
+          "name": "image 13",
+          "filePath": "plasmic/tiny_garden_solutions/images/image13.jpg"
+        },
+        {
+          "id": "SZY5Gg0tXEH",
+          "name": "image 14",
+          "filePath": "plasmic/tiny_garden_solutions/images/image14.jpg"
+        },
+        {
+          "id": "57b7dJjx9S0",
+          "name": "image 15",
+          "filePath": "plasmic/tiny_garden_solutions/images/image15.jpg"
+        },
+        {
+          "id": "u9VQKGWIIKt",
+          "name": "image 16",
+          "filePath": "plasmic/tiny_garden_solutions/images/image16.jpg"
+        },
+        {
+          "id": "6VQsQmMthOH",
+          "name": "image 17",
+          "filePath": "plasmic/tiny_garden_solutions/images/image17.jpg"
+        },
+        {
+          "id": "pd834QfIF",
+          "name": "LogoWebsite.svg",
+          "filePath": "plasmic/tiny_garden_solutions/images/logoWebsitesvg.svg"
+        },
+        {
+          "id": "Xf5g1fYwy",
+          "name": "image 18",
+          "filePath": "plasmic/tiny_garden_solutions/images/image18.png"
+        },
+        {
+          "id": "JssAkE_xe",
+          "name": "Linkedinachtergrond.jpg",
+          "filePath": "plasmic/tiny_garden_solutions/images/linkedinachtergrondjpg.jpg"
+        },
+        {
+          "id": "aCS-nAr92",
+          "name": "image 19",
+          "filePath": "plasmic/tiny_garden_solutions/images/image19.png"
+        },
+        {
+          "id": "77Wta1Zpmy",
+          "name": "Asset 3.svg",
+          "filePath": "plasmic/tiny_garden_solutions/images/asset3Svg.svg"
         }
       ],
       "indirect": false,
@@ -357,10 +825,16 @@
         "name": "Screen",
         "projectId": "qYXJkyifyxfQuqtTDFQCRa",
         "contextFilePath": "plasmic/tiny_garden_solutions/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "qR_Hkcp_42",
+        "name": "Experiment",
+        "projectId": "qYXJkyifyxfQuqtTDFQCRa",
+        "contextFilePath": "plasmic/tiny_garden_solutions/PlasmicGlobalVariant__Experiment.jsx"
       }
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.286",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.286/dist/plasmic.schema.json"
+  "cliVersion": "0.1.292",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.292/dist/plasmic.schema.json"
 }
