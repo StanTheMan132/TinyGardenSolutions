@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import * as ph from "@plasmicapp/react-web/lib/host";
+import { usePlasmicDataOp } from "@plasmicapp/react-web/lib/data-sources";
 import {
   classNames,
   createPlasmicElementProxy,
@@ -24,7 +25,6 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostl
 import projectcss from "./plasmic_tiny_garden_solutions.module.css"; // plasmic-import: qYXJkyifyxfQuqtTDFQCRa/projectcss
 import sty from "./PlasmicUnderConstruction.module.css"; // plasmic-import: sdFwgj_RBK/css
 import asset3Svg77Wta1Zpmy from "./images/asset3Svg.svg"; // plasmic-import: 77Wta1Zpmy/picture
-import image19ACsNAr92 from "./images/image19.png"; // plasmic-import: aCS-nAr92/picture
 
 export const PlasmicUnderConstruction__VariantProps = new Array();
 
@@ -51,6 +51,34 @@ function PlasmicUnderConstruction__RenderFunc(props) {
   const $refs = refsRef.current;
   const currentUser = p.useCurrentUser?.() || {};
   const [$queries, setDollarQueries] = React.useState({});
+  const new$Queries = {
+    componentData2: usePlasmicDataOp(
+      (() => {
+        try {
+          return {
+            sourceId: "eYPmaoow9fiTCYRn3oR1Fw",
+            opId: "f18aa320-0a76-4ace-aba4-c588a3664855",
+            userArgs: {},
+            cacheKey: "plasmic.$.1W2sSl8NW.$.",
+            invalidatedKeys: null,
+            roleId: null
+          };
+        } catch (e) {
+          if (
+            e instanceof TypeError ||
+            e?.plasmicType === "PlasmicUndefinedDataError"
+          ) {
+            return undefined;
+          } else {
+            throw e;
+          }
+        }
+      })()
+    )
+  };
+  if (Object.keys(new$Queries).some(k => new$Queries[k] !== $queries[k])) {
+    setDollarQueries(new$Queries);
+  }
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstvKzUvB7Ggzh0()
   });
@@ -84,8 +112,10 @@ function PlasmicUnderConstruction__RenderFunc(props) {
             >
               {true ? (
                 <p.PlasmicImg
+                  data-plasmic-name={"img"}
+                  data-plasmic-override={overrides.img}
                   alt={""}
-                  className={classNames(sty.img__xD3I)}
+                  className={classNames(sty.img)}
                   displayHeight={"auto"}
                   displayMaxHeight={"200px"}
                   displayMaxWidth={"100%"}
@@ -146,23 +176,33 @@ function PlasmicUnderConstruction__RenderFunc(props) {
               >
                 {"Launching in:"}
               </h1>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__kHvdf)}
-                displayHeight={"167px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: image19ACsNAr92,
-                  fullWidth: 680,
-                  fullHeight: 250,
-                  aspectRatio: undefined
-                }}
-              />
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__zD7Ta
+                )}
+              >
+                <React.Fragment>
+                  {(() => {
+                    try {
+                      return (
+                        176 -
+                        $queries.componentData2.data.response.day_of_year +
+                        " Days"
+                      );
+                    } catch (e) {
+                      if (
+                        e instanceof TypeError ||
+                        e?.plasmicType === "PlasmicUndefinedDataError"
+                      ) {
+                        return "14";
+                      }
+                      throw e;
+                    }
+                  })()}
+                </React.Fragment>
+              </div>
             </p.Stack>
             <p.Stack
               as={"div"}
@@ -232,12 +272,26 @@ function PlasmicUnderConstruction__RenderFunc(props) {
                     const $steps = {};
                     $steps["runCode"] = true
                       ? (() => {
-                          const actionArgs = {};
+                          const actionArgs = {
+                            customFunction: __wrapUserFunction(
+                              {
+                                type: "InteractionArgLoc",
+                                actionName: "customFunction",
+                                interactionUuid: "iXPzJVJbA",
+                                componentUuid: "sdFwgj_RBK",
+                                argName: "customFunction"
+                              },
+                              () => () => {
+                                return (window.location.href =
+                                  "mailto:info@tinygardensolutions.com");
+                              }
+                            )
+                          };
                           return __wrapUserFunction(
                             {
                               type: "InteractionLoc",
                               actionName: "customFunction",
-                              interactionUuid: "BZOJyWxmu",
+                              interactionUuid: "iXPzJVJbA",
                               componentUuid: "sdFwgj_RBK"
                             },
                             () =>
@@ -256,7 +310,7 @@ function PlasmicUnderConstruction__RenderFunc(props) {
                         {
                           type: "InteractionLoc",
                           actionName: "customFunction",
-                          interactionUuid: "BZOJyWxmu",
+                          interactionUuid: "iXPzJVJbA",
                           componentUuid: "sdFwgj_RBK"
                         },
                         $steps["runCode"]
@@ -306,6 +360,53 @@ function PlasmicUnderConstruction__RenderFunc(props) {
                   className={classNames("__wab_instance", sty.button2___45HXs)}
                   onClick={async event => {
                     const $steps = {};
+                    $steps["runCode"] = true
+                      ? (() => {
+                          const actionArgs = {
+                            customFunction: __wrapUserFunction(
+                              {
+                                type: "InteractionArgLoc",
+                                actionName: "customFunction",
+                                interactionUuid: "Bdx1_0p4Z",
+                                componentUuid: "sdFwgj_RBK",
+                                argName: "customFunction"
+                              },
+                              () => () => {
+                                return window.open(
+                                  "https://www.instagram.com/tinygardensolutions"
+                                );
+                              }
+                            )
+                          };
+                          return __wrapUserFunction(
+                            {
+                              type: "InteractionLoc",
+                              actionName: "customFunction",
+                              interactionUuid: "Bdx1_0p4Z",
+                              componentUuid: "sdFwgj_RBK"
+                            },
+                            () =>
+                              (({ customFunction }) => {
+                                return customFunction();
+                              })?.apply(null, [actionArgs]),
+                            actionArgs
+                          );
+                        })()
+                      : undefined;
+                    if (
+                      typeof $steps["runCode"] === "object" &&
+                      typeof $steps["runCode"].then === "function"
+                    ) {
+                      $steps["runCode"] = await __wrapUserPromise(
+                        {
+                          type: "InteractionLoc",
+                          actionName: "customFunction",
+                          interactionUuid: "Bdx1_0p4Z",
+                          componentUuid: "sdFwgj_RBK"
+                        },
+                        $steps["runCode"]
+                      );
+                    }
                   }}
                   shape={"rounded"}
                 >
@@ -333,6 +434,7 @@ const PlasmicDescendants = {
     "underConstrution2",
     "page",
     "logo2",
+    "img",
     "underConstruction",
     "launchingIn",
     "ourStory",
@@ -342,13 +444,15 @@ const PlasmicDescendants = {
   page: [
     "page",
     "logo2",
+    "img",
     "underConstruction",
     "launchingIn",
     "ourStory",
     "connect"
   ],
 
-  logo2: ["logo2"],
+  logo2: ["logo2", "img"],
+  img: ["img"],
   underConstruction: ["underConstruction"],
   launchingIn: ["launchingIn"],
   ourStory: ["ourStory"],
@@ -389,6 +493,7 @@ export const PlasmicUnderConstruction = Object.assign(
     // Helper components rendering sub-elements
     page: makeNodeComponent("page"),
     logo2: makeNodeComponent("logo2"),
+    img: makeNodeComponent("img"),
     underConstruction: makeNodeComponent("underConstruction"),
     launchingIn: makeNodeComponent("launchingIn"),
     ourStory: makeNodeComponent("ourStory"),
